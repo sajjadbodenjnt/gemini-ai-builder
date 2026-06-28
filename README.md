@@ -1,2 +1,10 @@
-# gemini-ai-builder
-AI Model Training Dataset
+# 🩺 MBBS Doctor Generative AI Assistant
+
+এই রিপোজিটরিতে আপনার ফাইন-টিউনড মডেলের জন্য তৈরি করা ডেটাসেটটি সফলভাবে সংরক্ষিত হয়েছে।
+
+## 🚀 এআই স্টুডিও থেকে মডেল ফাইন-টিউন করার নিয়ম:
+1. আপনার ব্রাউজারে [Google AI Studio](https://aistudio.google.com/) ওপেন করুন।
+2. বাম পাশের মেনু থেকে **"Create Tuned Model"** অপশনে ক্লিক করুন।
+3. Base Model হিসেবে **Gemini 1.5 Flash** সিলেক্ট করুন।
+4. Import Source হিসেবে এই রিপোজিটরি থেকে ডাউনলোড করা `medical_dataset.json` ফাইলটি সিলেক্ট করে দিন।
+5. **Tune** বাটনে চাপুন! গুগল সম্পূর্ণ ফ্রিতে আপনার এই ডাক্তার অ্যাসিস্ট্যান্ট মডেলটি ট্রেইন করে দেবে।
